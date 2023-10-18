@@ -12,7 +12,7 @@ import {
 import { SearchIcon } from "@chakra-ui/icons";
 import Conversation from "../compoents/Conversation";
 import { GiConversation } from "react-icons/gi";
-import MessageContainer from "../compoents/messageContainer";
+import MessageContainer from "../compoents/MessageContainer";
 import useShowToast from "../hooks/useShowToast";
 import { useRecoilState, useRecoilValue } from "recoil";
 import {
