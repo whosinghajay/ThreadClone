@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 import AuthPage from "./pages/AuthPage";
 import { useRecoilValue } from "recoil";
 import userAtom from "./atoms/userAtom";
-import UpdateProfilePage from "./pages/updateProfilePage";
+import UpdateProfilePage from "./pages/UpdateProfilePage";
 import CreatePost from "./compoents/CreatePost";
 import ChatPage from "./pages/ChatPage";
 import { Box } from "@chakra-ui/react";
