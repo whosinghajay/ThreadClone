@@ -2,6 +2,9 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { useRecoilValue } from "recoil";
 import io from "socket.io-client";
 import userAtom from "../atoms/userAtom";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const SocketContext = createContext();
 
