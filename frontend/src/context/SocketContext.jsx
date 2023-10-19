@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 	const user = useRecoilValue(userAtom);
 
 	useEffect(() => {
-		const socket = io("http://localhost:5000", {
+		const socket = io(`http://localhost:${process.env.PORT}`, {
 			query: {
 				userId: user?._id,
 			},
