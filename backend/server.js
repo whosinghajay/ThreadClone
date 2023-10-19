@@ -9,7 +9,6 @@ import { v2 as cloudinary } from "cloudinary";
 import messageRoutes from "./routes/messageRoutes.js";
 import { app, server } from "./socket/socket.js";
 import path from "path";
-import cors from "cors"; app.use(cors());
 
 dotenv.config();
 
