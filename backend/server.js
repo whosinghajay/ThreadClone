@@ -9,7 +9,7 @@ import { v2 as cloudinary } from "cloudinary";
 import messageRoutes from "./routes/messageRoutes.js";
 import { app, server } from "./socket/socket.js";
 import path from "path";
-import "./utils/serverAwake.js";
+// import "./utils/serverAwake.js";
 
 dotenv.config();
 
